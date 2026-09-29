@@ -1,0 +1,26 @@
+{
+  "name": "comiccraft",
+  "version": "1.0.0",
+  "description": "ComicCraft – AI Comic Story Creator (TN Skills Google Cloud Generative AI Project)",
+  "scripts": {
+    "dev:backend": "node --watch backend/server.js",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "start:backend": "node backend/server.js",
+    "install:backend": "npm --prefix backend install",
+    "install:frontend": "npm --prefix frontend install",
+    "install:all": "npm run install:backend && npm run install:frontend"
+  },
+  "keywords": [
+    "comiccraft",
+    "gemini-ai",
+    "generative-ai",
+    "google-cloud",
+    "tn-skills",
+    "comic-story-generator",
+    "react",
+    "express"
+  ],
+  "author": "TN Skills Team",
+  "license": "MIT"
+}
